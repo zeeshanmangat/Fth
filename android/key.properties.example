@@ -1,0 +1,7 @@
+# Copy this file to android/key.properties (never commit android/key.properties or *.jks/*.keystore)
+# Or provide equivalent CI/build environment variables:
+#   FTH_UPLOAD_STORE_FILE, FTH_UPLOAD_STORE_PASSWORD, FTH_UPLOAD_KEY_ALIAS, FTH_UPLOAD_KEY_PASSWORD
+storeFile=../upload-keystore.jks
+storePassword=REPLACE_WITH_OWNER_KEYSTORE_PASSWORD
+keyAlias=upload
+keyPassword=REPLACE_WITH_OWNER_KEY_PASSWORD
